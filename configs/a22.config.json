@@ -1,15 +1,15 @@
 [
   {
     "kernelSource": {
-      "name": "AndroidHQ254",
-      "repo": "https://github.com/A325F/android_kernel_samsung_a32",
-      "branch": "fifteen",
-      "device": "a32",
-      "defconfig": "a32_defconfig"
+      "name": "SamsungMT6769-Dev",
+      "repo": "https://github.com/Samsung-MT6769-Devs/android_kernel_samsung_a22_remake",
+      "branch": "fourteen_wip",
+      "device": "a22",
+      "defconfig": "a22_defconfig"
     },
     "toolchains": [
       {
-        "repo": "https://github.com/A325F/android_prebuilts_clang_host_linux-x86_clang-6443078",
+        "repo": "https://github.com/A325F/android_prebuilts_clang_host_linux-x86_clang-6443078", 
         "branch": "10.0",
         "name": "clang",
         "binaryEnv": [
@@ -58,9 +58,10 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/AndroidHQ254/AnyKernel3/",
-      "branch": "a32"
+      "repo": "https://github.com/osm0sis/AnyKernel3",
+      "branch": "master"
     },
-    "enableKernelSU": true
+    "enableKernelSU": false
   }
 ]
+
