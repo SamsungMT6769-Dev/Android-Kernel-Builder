@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "SamsungMT6769-Dev",
       "repo": "https://github.com/Samsung-MT6769-Devs/android_kernel_samsung_a22_remake",
-      "branch": "fourteen_wip",
+      "branch": "4.14.336",
       "device": "a22",
       "defconfig": "a22_defconfig"
     },
